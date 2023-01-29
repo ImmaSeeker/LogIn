@@ -5,11 +5,17 @@ body{
   background-position: center;
 }
 
-form{
+.form{
+  align-content: center;
   display: inline-block;
+  border: 5px double #0c0202;
   margin: 200px;
-  padding: 100px;
+  padding: 30px;
+  padding-top: 0px;
   background-image: url("Backgroud.jpg");
+  background-color: #87363670;
+  width: 300px;
+  height: 350px;
 
 }
 
@@ -21,18 +27,27 @@ input{
   margin-bottom: 5px;
 }
 
-.login{
-  background-color: red;
+.f-pass{
+  margin: 10px;
+  float:initial;
 }
 
-.facebook, .instagram{
+.login{
+  margin: 10px;
+  background-color: #860e0e;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.facebook, .instagram, .google{
   width: 40px;
   height: 40px;
-  margin: 10px
+  margin: 5px;
 }
 
-/* .instagram{
-  width:42px;
-  height:42px;
-  margin: 10px;
-} */
+
+.l-with{
+  border: 1px double black;
+}
+
+
